@@ -4,24 +4,41 @@
   <a href="http://www.phpbenchmarks.com" target="_blank">www.phpbenchmarks.com</a>
 </p>
 
-## What is www.phpbenchmarks.com ?
+## What is www.phpbenchmarks.com?
 
-You will find lot of benchmarks for PHP frameworks and template engines.
+You will find lot of benchmarks for PHP frameworks and template engines on [phpbenchmarks.com](http://www.phpbenchmarks.com).
 
-You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.3.
+Benchmarks results are available for Apache Bench and Siege, and PHP 5.6 to 7.3.
 
-## What is this repository ?
+Our benchmarking protocol is available on [benchmarking protocol page](http://www.phpbenchmarks.com/en/documentation/benchmarking-protocol).
 
-It's benchmark common code for Symlex benchmarks.
+## What is this repository?
 
-Switch branch to select your Symlex major version and benchmark you want to see.
+It contains Symlex installation `only`.
+To reuse code between minor versions, features for benchmarks are not coded in this repository
+but in [phpbenchmarks/symlex-common](https://github.com/phpbenchmarks/symlex-common) repository.
 
-See all Symlex benchmarked versions on [phpbenchmarks/symlex](https://github.com/phpbenchmarks/symlex).
-
-You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
+Switch branch to select version and benchmark you want to see.
 
 ## Benchmarks
 
-You can find all Symlex benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/symlex.html).
+You can find Symlex 4.2 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/symlex/4.2).
 
-Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
+See all Symlex benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/symlex/version).
+
+## Community
+
+Go to [community page](http://www.phpbenchmarks.com/en/community) to see the Hall of fame, or download the benchmark kit to add your code!
+
+## How version works?
+
+We do not follow semantic version for this repository. Here is an explanation about our versioning system:
+
+`W` Benchmarked framework major version
+
+`X` Benchmarked framework minor version
+
+`Y` Benchmarked framework bugfix version
+
+`Z` Benchmark type: `1` Hello World, `3` REST API

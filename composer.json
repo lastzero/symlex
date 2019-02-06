@@ -19,9 +19,9 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "symlex/symlex-core": "4.1.*",
-        "phpbenchmarks/symlex-common": "4.1.0",
+        "php": ">=7.2",
+        "symlex/symlex-core": "4.2.*",
+        "phpbenchmarks/symlex-common": "dev-symlex_4_hello-world",
         "incenteev/composer-parameter-handler": "^2.0"
     },
     "repositories": [
